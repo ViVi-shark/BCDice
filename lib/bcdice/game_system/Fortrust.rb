@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require "bcdice/base"
-
 module BCDice
   module GameSystem
     class Fortrust < Base
@@ -10,7 +8,7 @@ module BCDice
       SORT_KEY = "ふおるとらすと"
 
       HELP_MESSAGE = <<~MESSAGETEXT
-        ■ プレイング・ダイスロール (shifter, UDS)
+        ■ プレイング・ダイスロール
 
         □ ハーティ用（ Ft@H, Ft@Hearty ）
         □ クラリオン用（ Ft@C, Ft@Clarion ）

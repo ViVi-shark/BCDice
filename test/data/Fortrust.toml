@@ -1,0 +1,57 @@
+[[ test ]]
+game_system = "Fortrust"
+input = "FT@H"
+output = "(1D4*1D10) ＞ 4 × 10 ＞ 40"
+rands = [
+  { sides = 4, value = 4 },
+  { sides = 10, value = 10 },
+]
+
+[[ test ]]
+game_system = "Fortrust"
+input = "Ft@Hearty"
+output = "(1D4*1D10) ＞ 3 × 2 ＞ 6"
+rands = [
+  { sides = 4, value = 3 },
+  { sides = 10, value = 2 },
+]
+
+[[ test ]]
+game_system = "Fortrust"
+input = "FT@C"
+output = "(2b10) ＞ max[5, 17] ＞ 17"
+rands = [
+  { sides = 20, value = 5 },
+  { sides = 20, value = 17 },
+]
+
+[[ test ]]
+game_system = "Fortrust"
+input = "Ft@Clarion"
+output = "(2b10) ＞ max[9, 2] ＞ 9"
+rands = [
+  { sides = 20, value = 9 },
+  { sides = 20, value = 2 },
+]
+
+[[ test ]]
+game_system = "Fortrust"
+input = "FT@M"
+output = "(4D6) ＞ sum[2, 3, 4, 5] ＞ 14"
+rands = [
+  { sides = 6, value = 2 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 4 },
+  { sides = 6, value = 5 },
+]
+
+[[ test ]]
+game_system = "Fortrust"
+input = "Ft@Monochrome"
+output = "(4D6) ＞ sum[6, 1, 3, 2] ＞ 12"
+rands = [
+  { sides = 6, value = 6 },
+  { sides = 6, value = 1 },
+  { sides = 6, value = 3 },
+  { sides = 6, value = 2 },
+]
